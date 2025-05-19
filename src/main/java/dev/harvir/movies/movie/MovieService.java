@@ -1,6 +1,7 @@
-package dev.harvir.movies;
+package dev.harvir.movies.movie;
 
-import org.bson.types.ObjectId;
+import dev.harvir.movies.movie.Movie;
+import dev.harvir.movies.movie.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
